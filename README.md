@@ -8,7 +8,7 @@ API рассчитывает дескриптор для задаваемого 
 Пример осуществления запроса для соединения Mn2CoCrP2 с помощью requests:
 
 <code>
-import json
+import requests
 from urllib.request import urlopen
 params = {
     "cmpd": "Mn2CoCrP2"
