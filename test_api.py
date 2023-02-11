@@ -20,4 +20,3 @@ def test_predict():
         assert values[0]*0.5 <= json_data['kappa='] <= values[0]*1.5, "kappa is not correct for " + cmpd
         assert values[1]*0.7 <= json_data['bulk='] <= values[1]*1.3, "bulk modulus is not correct for " + cmpd
         assert values[2]*0.5 <= json_data['shear='] <= values[2]*1.5, "shear modulus is not correct for " + cmpd
-
