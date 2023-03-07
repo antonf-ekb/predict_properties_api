@@ -17,4 +17,5 @@ query_url = "http://localhost:8000/predict/" #insert the name of your server ins
 response = requests.post(query_url, json=params)
 entry=response.json()
 
-</code>
+</code><br>
+Формат вывода свойств: решеточная теплопроводность (kappa) в - Вт/(м·К), модуль всестороннего сжатия (bulk) и сдвига (shear) - в ГПа.
